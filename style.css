@@ -1,0 +1,54 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+hr {
+  border-color: rgba(51, 38, 31, 0.4);
+  border-width: 5px;
+  max-width: 500px;
+  /* 3 pixel thick horizontal line with maximum width of 65 pixels */
+}
+
+.buffer {
+  height: 10rem;
+  /* placing some space between the h1 text and the button */
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  /* border radius makes the edges rounded */
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: rgba(51, 38, 31, 0.9);
+  border-color: rgba(51, 38, 31, 0.8);
+  /* btn-primary defaults to blue color but we changed it */
+  /* added a border color because it retains the blue also otherwise */
+}
+
+.btn-primary:hover {
+  background-color: #EB99E5;
+  border-color: #EB99E5;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  /* not a bootstrap class we made this to further customize the above */
+  /* makes btn-primary thicker w/padding around its text  */
+}

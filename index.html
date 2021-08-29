@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- Requisite meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- called up the Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS from a CDN. By calling it no need to include the bootstrap code file -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- My own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container d-flex align-items-center h-100">
+      <!-- [container] is broken into 3 columns that equal 12 for horizontal alignment-->
+      <!-- but for alignment vertically on the page you need a flex box [d-flex] -->
+      <!-- this container must be the whole page so [h-100] makes the height 100% -->
+
+      <div class="row">
+        <header class="text-center col-12">
+          <h1 class="text-uppercase">
+            <strong>Welcome to the fucking show</strong>
+          </h1>
+        </header>
+        <!-- division called row has the h1 text -->
+
+        <div class="buffer col-12"></div>
+        <!-- this makes some space between the h1 test and the button -->
+
+        <section class="text-center col-12">
+          <!-- containers are columns of 12 - this is one 12 so it spans the whole page -->
+          <hr />
+          <!-- horizontal line -->
+          <a href="some_email_service_like_mailchimp">
+            <button class="btn btn-primary btn-xl">Liebe meine abschminke!</button>
+            <!-- this is three classes, btn for the plain one, btn-primary the colored one -->
+            <!-- and btn-xl which we made (not a bootstrap class) to make it have more padding around it -->
+            <!-- all 3 have attributes in the stylesheet and all 3 are called in this button -->
+          </a>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
